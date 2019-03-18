@@ -1,0 +1,18 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 48rpx;
+  color: #333;
+  font-weight: 400;
+  font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  margin: 30rpx 0;
+}
+.des{
+  font-size: 28rpx;
+  color: #455a64;
+  margin-bottom: 60rpx;
+}

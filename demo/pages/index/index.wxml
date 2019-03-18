@@ -1,0 +1,6 @@
+<view class="pages">
+  <view class="header">
+    <view class="title">Dojay Weapp</view>
+    <view class="des">隔壁老王的微信小程序UI组件</view>
+  </view>
+</view>
