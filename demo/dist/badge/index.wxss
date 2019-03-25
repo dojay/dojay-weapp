@@ -1,0 +1,1 @@
+.d-badge{position:relative}.d-badge-count{position:absolute;top:-4px;right:-4px;background:#ff4d4f;color:#fff;font-size:22rpx;min-width:16px;line-height:16px;border-radius:16px;text-align:center;padding:0 3px;box-sizing:border-box}.d-badge-dot{position:absolute;top:-2px;right:-2px;width:16rpx;height:16rpx;border-radius:8rpx;background:#ff4d4f}

@@ -1,0 +1,11 @@
+<view
+  class="d-button {{size ? 'd-btn-'+size : '' }} {{color ? 'd-btn-'+color : ''}} {{disabled ? 'd-btn-disabled' : ''}} {{type ? 'd-btn-'+type : ''}} {{empty ? 'd-btn-'+emptyColor : ''}} {{line ? 'd-btn-line' : ''}}"
+>
+  <d-icon
+    wx:if="{{ icon !== '' }}"
+    name="{{ icon }}"
+    color="#fff"
+    class="d-tbn-icon"
+  ></d-icon>
+  <text class="d-btn-txt">{{ title }}</text>
+</view>

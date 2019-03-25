@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Panel 面板",
+  "usingComponents": {
+    "d-panel": "../../dist/panel/index"
+  }
+}

@@ -1,0 +1,54 @@
+<view class="pages">
+  <view class="box">
+    <view class="btn-title">按钮形状</view>
+    <view class="btn-box">
+      <d-button class="m-r" line title="正常按钮"></d-button>
+      <d-button class="m-r" line type="round" title="圆角按钮"></d-button>
+      <view class="m-b"/>
+      <d-button class="m-r" line color="primary" empty title="镂空按钮"></d-button>
+      <d-button class="m-r" line color="blue" empty type="round" title="镂空按钮"></d-button>
+      <d-button class="m-r" line empty title="镂空按钮"></d-button>
+    </view>
+  </view>
+  <view class="box">
+    <view class="btn-title">按钮颜色</view>
+    <view class="btn-box">
+      <d-button class="m-r" color="red" line title="红色"></d-button>
+      <d-button class="m-r" color="blue" line title="蓝色"></d-button>
+      <d-button class="m-r" color="yellow" line title="黄色"></d-button>
+      <view class="m-b"/>
+      <d-button class="m-r" color="purple" line title="紫色"></d-button>
+      <d-button class="m-r" color="green" line title="绿色"></d-button>
+    </view>
+  </view>
+  <view class="box">
+    <view class="btn-title">图标按钮</view>
+    <view class="btn-box">
+      <d-button class="m-r" line icon="plus" title="新增"></d-button>
+      <d-button class="m-r" line icon="setting" title="设置"></d-button>
+    </view>
+  </view>
+  <view class="box">
+    <view class="btn-title">按钮状态</view>
+    <view class="btn-box">
+      <d-button class="m-r" line title="正常按钮"></d-button>
+      <d-button class="m-r" line disabled title="禁用按钮"></d-button>
+      <view class="m-b"/>
+      <d-button class="m-r" line color="red" title="正常按钮"></d-button>
+      <d-button class="m-r" line color="red" disabled title="禁用按钮"></d-button>
+    </view>
+  </view>
+  <view class="box">
+      <view class="btn-title">按钮大小</view>
+      <view class="btn-box">
+        <d-button class="m-r" line title="正常按钮"></d-button>
+        <d-button class="m-r" line size="small" title="小按钮"></d-button>
+      </view>
+    </view>
+    <view class="box">
+      <view class="btn-title">长按钮</view>
+      <view class="btn-box">
+        <d-button size="long" title="长按钮"></d-button>
+      </view>
+    </view>
+</view>

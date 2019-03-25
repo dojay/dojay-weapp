@@ -1,0 +1,98 @@
+@import '../styles/_base.less';
+
+.d-button{
+  width: 200rpx;
+  height: 80rpx;
+  background: @primary-color;
+  border-radius: 8rpx;
+  color: #fff;
+  font-size: @font-size-base;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 80rpx;
+
+  &.d-btn{
+    &-line{
+      display: inline-block;
+    }
+    &-long{
+      position: relative;
+      width: 100%;
+      left: 0;
+    }
+    &-small{
+      height: 60rpx;
+      width: 140rpx;
+      line-height: 60rpx;
+      font-size: 24rpx;
+    }
+    &-primary{
+      background: @primary-color;
+      border: 1rpx solid @primary-color;
+    }
+    &-red{
+      background: @red-color;
+      border: 1rpx solid @red-color;
+    }
+    &-green{
+      background: @green-color;
+      border: 1rpx solid @green-color;
+    }
+    &-yellow{
+      background: @yellow-color;
+      border: 1rpx solid @yellow-color;
+    }
+    &-blue{
+      background: @blue-color;
+      border: 1rpx solid @blue-color;
+    }
+    &-purple{
+      background: @purple-color;
+      border: 1rpx solid @purple-color;
+    }
+    &-round{
+      border-radius: 10em;
+    }
+    &-disabled{
+      opacity: .5;
+    }
+    &-empty{
+      background: #fff;
+      border: 1rpx solid #666;
+      color: #666;
+      &-primary{
+        border: 1rpx solid @primary-color;
+        color: @primary-color;
+        background: #fff;
+      }
+      &-red{
+        border: 1rpx solid @red-color;
+        color: @red-color;
+        background: #fff;
+      }
+      &-yellow{
+        border: 1rpx solid @yellow-color;
+        color: @yellow-color;
+        background: #fff;
+      }
+      &-green{
+        border: 1rpx solid @green-color;
+        color: @green-color;
+        background: #fff;
+      }
+      &-blue{
+        border: 1rpx solid @blue-color;
+        color: @blue-color;
+        background: #fff;
+      }
+      &-purple{
+        border: 1rpx solid @purple-color;
+        color: @purple-color;
+        background: #fff;
+      }
+    }
+  }
+  .d-tbn-icon{
+    margin-right: 4px;
+  }
+}

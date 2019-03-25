@@ -1,0 +1,30 @@
+@import '../styles/_base.less';
+@import '../styles/_mixins.less';
+
+.d-panel{
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+
+  &::after{
+    .hairline();
+    border-top-width: 1rpx;
+    border-bottom-width: 1rpx;
+    left: 0;
+    right: 0;
+  }
+
+  &-dot{
+    width: 16rpx;
+    height: 16rpx;
+    border-radius: 8rpx;
+    background: @primary-color;
+    margin-right: 6px;
+    box-shadow: 0 0 4px #36CFC9;
+  }
+
+  &-title{
+    font-size: 28rpx;
+    color: #333;
+  }
+}

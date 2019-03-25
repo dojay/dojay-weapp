@@ -1,0 +1,11 @@
+<view class="pages">
+  <view class="badge-box">
+    <d-badge count="100"></d-badge>
+  </view>
+  <view class="badge-box">
+    <d-badge dot></d-badge>
+  </view>
+  <view class="badge-box">
+    <d-badge count="8"></d-badge>
+  </view>
+</view>

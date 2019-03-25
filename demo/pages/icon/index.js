@@ -1,0 +1,35 @@
+Page({
+  data: {
+    iconList: [
+      { name: 'plus' },
+      { name: 'right' },
+      { name: 'left' },
+      { name: 'up' },
+      { name: 'down' },
+      { name: 'check' },
+      { name: 'close' },
+      { name: 'menu' },
+      { name: 'question-circle' },
+      { name: 'message' },
+      { name: 'message-fill' },
+      { name: 'setting' },
+      { name: 'setting-fill' },
+      { name: 'eye' },
+      { name: 'eye-fill' },
+      { name: 'location' },
+      { name: 'location-fill' },
+      { name: 'home' },
+      { name: 'home-fill' },
+      { name: 'like' },
+      { name: 'like-fill' },
+      { name: 'unlike' },
+      { name: 'unlike-fill' },
+      { name: 'camera' },
+      { name: 'camera-fill' },
+      { name: 'sound' },
+      { name: 'sound-fill' },
+      { name: 'heart' },
+      { name: 'heart-fill' },
+    ]
+  }
+})

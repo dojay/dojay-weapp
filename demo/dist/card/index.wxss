@@ -1,0 +1,1 @@
+.d-card{position:relative;background:#fff;border-radius:8rpx}.d-card-border::after{content:'';position:absolute;top:0;width:200%;height:200%;transform:scale(.5);transform-origin:0 0;pointer-events:none;box-sizing:border-box;border:0 solid #eee;border-width:1px;left:0;right:0}.d-card-shadow{box-shadow:0 0 10px #eee}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "d-tabbar": "../../dist/tabbar/index",
+    "d-tabbar-item": "../../dist/tabbar-item/index",
+    "d-cell": "../../dist/cell/index",
+    "d-cell-group": "../../dist/cell-group/index",
+    "d-panel": "../../dist/panel/index"
+  }
+}

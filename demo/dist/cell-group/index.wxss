@@ -1,0 +1,1 @@
+.d-cell-group{position:relative;background:#fff;overflow:hidden}.d-cell-group::after{content:'';position:absolute;top:0;width:200%;height:200%;transform:scale(.5);transform-origin:0 0;pointer-events:none;box-sizing:border-box;border:0 solid #eee;border-top-width:1rpx;border-bottom-width:1rpx;left:0;right:0}

@@ -1,0 +1,19 @@
+<view>
+  <view class="tabbar-box">
+    <view class="tabbar-box-title">基础用法</view>
+    <d-tabbar current="{{ currentKey }}" bindchange="onChange">
+      <d-tabbar-item iconName="home" title="首页" key="home"></d-tabbar-item>
+      <d-tabbar-item iconName="setting" title="设置" key="setting"></d-tabbar-item>
+      <d-tabbar-item iconName="menu" title="菜单" key="menu"></d-tabbar-item>
+      <d-tabbar-item iconName="user" title="我的" key="user"></d-tabbar-item>
+    </d-tabbar>
+
+    <view class="tabbar-box-title">自定义颜色（激活颜色和未激活颜色都可以定义）</view>
+    <d-tabbar current="{{ currentKey }}" bindchange="onChange" activeColor="#f00" color="#40A9FF">
+      <d-tabbar-item iconName="home" title="首页" key="home"></d-tabbar-item>
+      <d-tabbar-item iconName="setting" title="设置" key="setting"></d-tabbar-item>
+      <d-tabbar-item iconName="menu" title="菜单" key="menu"></d-tabbar-item>
+      <d-tabbar-item iconName="user" title="我的" key="user"></d-tabbar-item>
+    </d-tabbar>
+  </view>
+</view>

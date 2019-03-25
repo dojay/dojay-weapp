@@ -1,0 +1,15 @@
+<view
+  class="d-tabbar-item"
+  bindtap="onClick"
+  data-key="{{ key }}"
+>
+  <d-icon
+    name="{{ iconName }}"
+    size="{{ iconSize }}"
+    color="{{ color }}"
+  ></d-icon>
+  <view
+    class="d-tabbar-item-txt"
+    style="color: {{ color }}"
+  >{{ title }}</view>
+</view>

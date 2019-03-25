@@ -1,0 +1,32 @@
+<view
+  wx:if="{{ custom }}"
+  class="d-cell {{isLast ? 'd-cell-last' : ''}}"
+  bindtap="handleTap"
+>
+  <slot />
+</view>
+
+<view
+  wx:else
+  class="d-cell {{isLast ? 'd-cell-last' : ''}}"
+  bindtap="handleTap"
+>
+  <view class="d-cell-icon">
+    <slot name="icon" />
+  </view>
+
+  <view class="d-cell-content">
+    <view
+      v-if="{{ title }}"
+      class="d-cell-content-title"
+      style="font-size: {{size ? size+'rpx' : '28rpx'}}"
+    >{{ title }}</view>
+    <view class="d-cell-content-desc" v-if="{{ desc }}">{{ desc }}</view>
+  </view>
+
+  <view class="d-cell-foot" >
+    <d-icon wx:if="{{ showLink }}" name="right" color="#ccc" size="16"></d-icon>
+    <slot wx:else name="foot" />
+  </view>
+
+</view>

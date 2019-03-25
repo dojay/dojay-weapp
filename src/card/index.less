@@ -1,0 +1,20 @@
+@import '../styles/_mixins.less';
+
+.d-card{
+  position: relative;
+  background: #fff;
+  border-radius: 8rpx;
+
+  &-border{
+    &::after{
+      .hairline();
+      border-width: 1px;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  &-shadow{
+    box-shadow: 0 0 10px #eee;
+  }
+}

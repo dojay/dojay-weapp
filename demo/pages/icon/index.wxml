@@ -1,0 +1,14 @@
+<view>
+  <d-grid border>
+    <d-grid-item
+      wx:for="{{iconList}}"
+      wx:key="unique"
+      icon="{{item.name}}"
+      iconColor="#333"
+      title="{{item.name}}"
+      iconSize="20"
+      titleSize="28"
+      titleColor="#888"
+    ></d-grid-item>
+  </d-grid>
+</view>

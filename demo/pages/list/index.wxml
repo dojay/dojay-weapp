@@ -1,0 +1,17 @@
+<view class="list-box">
+  <d-panel title="分组" size="32">
+    <d-cell-group>
+      <d-cell title="我是标题" desc="我是描述">
+        <d-icon name="setting" slot="icon"></d-icon>
+        <view slot="foot">我是内容</view>
+      </d-cell>
+      <d-cell title="我是标题" showLink url="/pages/main/index">
+        <d-icon name="setting" slot="icon"></d-icon>
+        <view slot="foot">我是内容</view>
+      </d-cell>
+      <d-cell title="我是标题" showLink>
+        <view slot="foot">我是内容</view>
+      </d-cell>
+    </d-cell-group>
+  </d-panel>
+</view>

@@ -1,0 +1,14 @@
+<view class="d-grid-item {{border ? 'd-grid-item-border' : ''}}">
+  <d-icon
+    class="d-grid-item-icon"
+    v-if="icon !== ''"
+    name="{{icon}}"
+    color="{{iconColor}}"
+    size="{{iconSize}}"
+  ></d-icon>
+  <text
+    v-if="title !== ''"
+    class="d-grid-item-title"
+    style="color: {{titleColor}}; font-size: {{titleSize}}rpx"
+  >{{title}}</text>
+</view>

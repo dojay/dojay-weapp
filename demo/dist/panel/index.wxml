@@ -1,0 +1,7 @@
+<view class="d-panel">
+  <d-cell title="{{ title }}" size="{{ size }}">
+    <!-- <d-icon name="setting" slot="icon"></d-icon>
+    <!-- <view wx:if="dot" class="d-panel-dot" style="background: {{ dotColor }}"/> -->
+  </d-cell>
+  <slot />
+</view>

@@ -1,0 +1,8 @@
+<view>
+  <d-grid border>
+    <d-grid-item icon="camera" iconColor="#36CFC9" title="相机" iconSize="24" titleSize="28" titleColor="#888"></d-grid-item>
+    <d-grid-item icon="camera" iconColor="#36CFC9" title="相机" iconSize="24" titleSize="28" titleColor="#888"></d-grid-item>
+    <d-grid-item icon="camera" iconColor="#36CFC9" title="相机" iconSize="24" titleSize="28" titleColor="#888"></d-grid-item>
+    <d-grid-item icon="camera" iconColor="#36CFC9" title="相机" iconSize="24" titleSize="28" titleColor="#888"></d-grid-item>
+  </d-grid>
+</view>

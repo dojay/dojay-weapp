@@ -1,6 +1,14 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/main/index",
+    "pages/badge/index",
+    "pages/tabbar/index",
+    "pages/grid/index",
+    "pages/card/index",
+    "pages/panel/index",
+    "pages/button/index",
+    "pages/list/index",
+    "pages/icon/index"
   ],
   "window":{
     "backgroundTextStyle":"light",

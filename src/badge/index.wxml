@@ -1,0 +1,4 @@
+<view class="d-badge">
+  <view class="d-badge-dot" wx:if="{{ dot }}"></view>
+  <text wx:else class="d-badge-count">{{ count }}</text>
+</view>

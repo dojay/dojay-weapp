@@ -1,0 +1,17 @@
+.pages{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30rpx;
+  flex: 1;
+}
+.card-list{
+  margin-bottom: 20px;
+}
+.card-txt{
+  font-size: 28rpx;
+  color: #666;
+  line-height: 200rpx;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Tabbar 标签栏",
+  "usingComponents": {
+    "d-tabbar": "../../dist/tabbar/index",
+    "d-tabbar-item": "../../dist/tabbar-item/index"
+  }
+}

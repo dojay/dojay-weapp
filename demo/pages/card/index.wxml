@@ -1,0 +1,17 @@
+<view class="pages">
+  <view class="card-list">
+    <d-card width="200" height="200" border shadow>
+      <view class="card-txt">边框+阴影</view>
+    </d-card>
+  </view>
+  <view class="card-list">
+    <d-card width="200" height="200" border>
+      <view class="card-txt">边框</view>
+    </d-card>
+  </view>
+  <view class="card-list">
+    <d-card width="200" height="200" shadow>
+      <view class="card-txt">阴影</view>
+    </d-card>
+  </view>
+</view>

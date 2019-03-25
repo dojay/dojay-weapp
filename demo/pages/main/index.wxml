@@ -1,0 +1,39 @@
+<view class="pages">
+  <view class="header">
+    <view class="title">Dojay Weapp</view>
+    <view class="des">隔壁老王的微信小程序UI组件</view>
+  </view>
+  <view class="list-box">
+    <view
+      wx:for="{{ list }}"
+      wx:key="{{ item.title }}"
+      wx:for-item="item"
+      class="list-item"
+    >
+      <d-panel size="32" title="{{ item.title }}" class="list-panel">
+        <d-cell-group>
+          <d-cell
+            wx:for="{{ item.list }}"
+            wx:key="{{ list.item }}"
+            wx:for-item="list"
+            title="{{ list.name }}"
+            showLink
+            url="{{list.url}}"
+          ></d-cell>
+        </d-cell-group>
+      </d-panel>
+    </view>
+  </view>
+  <d-tabbar fixed current="{{ currentKey }}" activeColor="#36CFC9" color="#999" bindchange="onChange">
+    <d-tabbar-item
+      iconName="home"
+      title="首页"
+      key="home"
+    ></d-tabbar-item>
+    <d-tabbar-item
+      iconName="user"
+      title="关于"
+      key="about"
+    ></d-tabbar-item>
+  </d-tabbar>
+</view>

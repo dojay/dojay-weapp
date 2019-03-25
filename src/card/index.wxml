@@ -1,0 +1,6 @@
+<view
+  class="d-card {{border ? 'd-card-border' : ''}} {{shadow ? 'd-card-shadow' : ''}}"
+  style="width: {{width}}rpx; height: {{height}}rpx;"
+>
+  <slot />
+</view>

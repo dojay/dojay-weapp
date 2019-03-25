@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "grid 网格布局",
+  "usingComponents": {
+    "d-grid": "../../dist/grid/index",
+    "d-grid-item": "../../dist/grid-item/index"
+  }
+}

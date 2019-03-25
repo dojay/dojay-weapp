@@ -1,0 +1,14 @@
+@import '../styles/_mixins.less';
+
+.d-cell-group{
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  &::after{
+    .hairline();
+    border-top-width: 1rpx;
+    border-bottom-width: 1rpx;
+    left: 0;
+    right: 0;
+  }
+}

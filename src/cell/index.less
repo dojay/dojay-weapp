@@ -1,0 +1,54 @@
+@import '../styles/_base.less';
+@import '../styles/_mixins.less';
+
+.d-cell{
+  position: relative;
+  padding: 10px 15px;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  font-size: @font-size-base;
+  overflow: hidden;
+
+  &::after{
+    .hairline();
+    border-bottom-width: 1px;
+    left: 15px;
+    right: 0;
+  }
+
+  &-last{
+    &::after{
+      border: 0;
+    }
+  }
+
+  &-icon{
+    margin-right: 5px;
+    &:empty{
+        display: none
+    }
+  }
+
+  &-content{
+    flex: 1;
+
+    &-title{
+      font-size: 28rpx;
+      color: #333;
+      line-height: 48rpx;
+    }
+
+    &-desc{
+      font-size: 24rpx;
+      color: #999;
+      line-height: 1.2;
+    }
+  }
+
+  &-foot{
+    position: relative;
+    text-align: right;
+    color: #333;
+  }
+}
