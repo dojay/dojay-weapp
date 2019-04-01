@@ -8,19 +8,26 @@ Component({
     dot: {
       type: Boolean,
       value: false
+    },
+    finalyCount: {
+      type: String,
+      value: ''
     }
   },
   methods: {
     // 判断大小
     checkCount() {
       let count = this.data.count;
+      let finalyCount = '';
 
       if (count > 99) {
-        count = '99+'
+        finalyCount = '99+'
+      } else {
+        finalyCount = count;
       }
 
       this.setData({
-        count
+        finalyCount
       });
     }
   }

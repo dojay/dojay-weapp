@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/tabs/index",
     "pages/main/index",
     "pages/badge/index",
     "pages/tabbar/index",

@@ -19,6 +19,14 @@ Component({
     color: {
       type: String,
       value: ''
+    },
+    dot: {
+      type: Boolean,
+      value: false
+    },
+    count: {
+      type: Number,
+      value: 0
     }
   },
   relations: {

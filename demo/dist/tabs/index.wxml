@@ -1,0 +1,14 @@
+<view
+  wx:if="{{!scroll}}"
+  class="d-tabs"
+>
+  <slot />
+</view>
+
+<scroll-view
+  class="d-tabs-scroll"
+  scroll-x
+  wx:else
+>
+  <slot />
+</scroll-view>

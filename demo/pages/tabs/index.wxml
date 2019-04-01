@@ -1,0 +1,22 @@
+<view>
+  <view class="tabs-demo">
+    <d-tabs current="{{currentKey}}" bindchange="onChange">
+      <d-tab key="all" title="全部"></d-tab>
+      <d-tab key="tab1" title="tab1"></d-tab>
+      <d-tab key="tab2" title="tab2"></d-tab>
+      <d-tab key="tab3" title="tab3"></d-tab>
+    </d-tabs>
+  </view>
+  <view class="tabs-demo">
+    <d-tabs current="{{currentKey}}" scroll bindchange="onChange">
+      <d-tab key="all" title="全部"></d-tab>
+      <d-tab key="tab1" title="tab1"></d-tab>
+      <d-tab key="tab2" title="tab2"></d-tab>
+      <d-tab key="tab3" title="tab3"></d-tab>
+      <d-tab key="tab4" title="tab4"></d-tab>
+      <d-tab key="tab5" title="tab5"></d-tab>
+      <d-tab key="tab6" title="tab6"></d-tab>
+      <d-tab key="tab7" title="tab7"></d-tab>
+    </d-tabs>
+  </view>
+</view>

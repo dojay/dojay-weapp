@@ -3,13 +3,18 @@
   bindtap="onClick"
   data-key="{{ key }}"
 >
-  <d-icon
-    name="{{ iconName }}"
-    size="{{ iconSize }}"
-    color="{{ color }}"
-  ></d-icon>
-  <view
-    class="d-tabbar-item-txt"
-    style="color: {{ color }}"
-  >{{ title }}</view>
+  <d-badge
+    dot="{{dot}}"
+    count="{{dot ? 0 : count}}"
+  >
+    <d-icon
+      name="{{ iconName }}"
+      size="{{ iconSize }}"
+      color="{{ color }}"
+    ></d-icon>
+    <view
+      class="d-tabbar-item-txt"
+      style="color: {{ color }}"
+    >{{ title }}</view>
+  </d-badge>
 </view>

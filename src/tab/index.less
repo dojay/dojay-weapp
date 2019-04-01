@@ -1,0 +1,27 @@
+@import "../styles/_base.less";
+
+.d-tab{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  &-txt{
+    font-size: 28rpx;
+    color: #999;
+    text-align: center;
+    &-active{
+      color: @primary-color;
+    }
+  }
+  &-active{
+    border-bottom: 2px solid @primary-color;
+  }
+
+  &-scroll{
+    width: 60px;
+    position: relative;
+    display: inline-block;
+    height: 90rpx;
+  }
+}

@@ -1,6 +1,7 @@
 {
   "component": true,
   "usingComponents": {
-    "d-icon": "../icon/index"
+    "d-icon": "../icon/index",
+    "d-badge": "../badge/index"
   }
 }

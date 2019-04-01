@@ -15,5 +15,13 @@
       <d-tabbar-item iconName="menu" title="菜单" key="menu"></d-tabbar-item>
       <d-tabbar-item iconName="user" title="我的" key="user"></d-tabbar-item>
     </d-tabbar>
+
+    <view class="tabbar-box-title">徽章</view>
+    <d-tabbar current="{{ currentKey }}" bindchange="onChange">
+      <d-tabbar-item dot iconName="home" title="首页" key="home"></d-tabbar-item>
+      <d-tabbar-item count="9" iconName="setting" title="设置" key="setting"></d-tabbar-item>
+      <d-tabbar-item iconName="menu" title="菜单" key="menu"></d-tabbar-item>
+      <d-tabbar-item count="100" iconName="user" title="我的" key="user"></d-tabbar-item>
+    </d-tabbar>
   </view>
 </view>

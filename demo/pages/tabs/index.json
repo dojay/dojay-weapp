@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Tabs 标签页",
+  "usingComponents": {
+    "d-tab": "../../dist/tab/index",
+    "d-tabs": "../../dist/tabs/index"
+  }
+}
