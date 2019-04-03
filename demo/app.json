@@ -1,7 +1,10 @@
 {
   "pages":[
-    "pages/tabs/index",
+    "pages/toast/index",
+    "pages/notify/index",
+    "pages/modal/index",
     "pages/main/index",
+    "pages/tabs/index",
     "pages/badge/index",
     "pages/tabbar/index",
     "pages/grid/index",

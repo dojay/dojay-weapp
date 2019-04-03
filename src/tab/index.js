@@ -16,12 +16,34 @@ Component({
     key: {
       type: String,
       value: ''
+    },
+    count: {
+      type: Number,
+      value: 0
+    },
+    dot: {
+      type: Boolean,
+      value: false
+    },
+    scroll: {
+      type: Boolean,
+      value: false
     }
   },
   methods: {
     updateChildCurrent(isCur) {
       this.setData({
         isCur
+      });
+    },
+    updateChildScroll(scroll) {
+      this.setData({
+        scroll
+      });
+    },
+    updateChildColor(color) {
+      this.setData({
+        color
       });
     },
     onClick() {

@@ -1,18 +1,17 @@
 Component({
   properties: {
     count: {
-      type: String,
-      value: '0',
+      type: Number,
+      value: 0,
       observer: 'checkCount'
     },
     dot: {
       type: Boolean,
       value: false
-    },
-    finalyCount: {
-      type: String,
-      value: ''
     }
+  },
+  data: {
+    finalyCount: ''
   },
   methods: {
     // 判断大小

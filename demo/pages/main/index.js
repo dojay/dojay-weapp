@@ -24,6 +24,13 @@ Page({
           { name: 'Tabs 标签页', url: '/pages/tabs/index'},
           { name: 'Badge 徽章', url: '/pages/badge/index'}
         ]
+      }, {
+        title: '操作提示',
+        list: [
+          { name: 'Toast 轻提示', url: '/pages/toast/index'},
+          { name: 'Modal 对话框', url: '/pages/modal/index'},
+          { name: 'Notify 消息通知', url: '/pages/notify/index'}
+        ]
       }
     ]
   },

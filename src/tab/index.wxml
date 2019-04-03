@@ -1,6 +1,18 @@
 <view
   bindtap="onClick"
-  class="d-tab {{!scroll ? 'd-tab-scroll' : ''}} {{isCur ? 'd-tab-active' : ''}}"
+  class="d-tab {{scroll ? 'd-tab-scroll' : ''}}"
 >
-  <view class="d-tab-txt {{isCur ? 'd-tab-txt-active' : ''}}">{{title}}</view>
+  <d-badge
+    dot="{{dot}}"
+    count="{{dot ? 0 : count}}"
+  >
+    <view
+      class="d-tab-txt {{isCur ? 'd-tab-txt-active' : ''}}"
+      style="color: {{color}}"
+    >{{title}}</view>
+  </d-badge>
+  <div
+    class="{{isCur ? 'd-tab-active' : ''}}"
+    style="background: {{color}}"
+  ></div>
 </view>

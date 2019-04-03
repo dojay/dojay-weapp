@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+  position: relative;
   &-txt{
     font-size: 28rpx;
     color: #999;
@@ -14,14 +15,21 @@
       color: @primary-color;
     }
   }
+
   &-active{
-    border-bottom: 2px solid @primary-color;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: @primary-color;
+    display: block;
   }
 
   &-scroll{
     width: 60px;
     position: relative;
     display: inline-block;
-    height: 90rpx;
+    text-align: center;
   }
 }
