@@ -1,1 +1,1 @@
-.d-tabbar-item{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}.d-tabbar-item-txt{font-size:22rpx;color:#999}
+.d-tabbar-item{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:1}.d-tabbar-item-txt{font-size:22rpx;color:#999;margin-top:10rpx}

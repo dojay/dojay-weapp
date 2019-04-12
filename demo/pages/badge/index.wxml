@@ -1,11 +1,17 @@
 <view class="pages">
   <view class="badge-box">
-    <d-badge count="100"></d-badge>
+    <d-badge count="100">
+      <view class="badge-content"></view>
+    </d-badge>
   </view>
   <view class="badge-box">
-    <d-badge dot></d-badge>
+    <d-badge dot>
+      <view class="badge-content"></view>
+    </d-badge>
   </view>
   <view class="badge-box">
-    <d-badge count="8"></d-badge>
+    <d-badge count="8">
+      <view class="badge-content"></view>
+    </d-badge>
   </view>
 </view>
