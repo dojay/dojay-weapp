@@ -1,0 +1,1 @@
+.d-toast-mask{position:absolute;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;z-index:999999}.d-toast{padding:10px;background:rgba(0,0,0,.7);flex-direction:column;border-radius:8rpx;max-width:200px;display:flex;justify-content:center;align-items:center}.d-toast-txt{color:#fff;font-size:32rpx}

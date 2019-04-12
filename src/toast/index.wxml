@@ -1,0 +1,14 @@
+<view
+  class="d-toast-mask"
+  wx:if="{{ visible }}"
+>
+  <view class="d-toast">
+    <d-icon
+      wx:if="{{type !== ''}}"
+      name="{{type}}"
+      size="40"
+      color="#fff"
+    ></d-icon>
+    <text class="d-toast-txt">{{ content }}</text>
+  </view>
+</view>

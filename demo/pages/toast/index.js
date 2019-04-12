@@ -1,66 +1,40 @@
-// pages/toast/index.js
+import Toast from '../../dist/toast/toast';
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  handleSuccess() {
+    Toast({
+      type: 'success',
+      content: '成功'
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  handleFail() {
+    Toast({
+      type: 'error',
+      content: '失败'
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  handleLoading() {
+    Toast({
+      type: 'success',
+      content: '我是内容我是内容'
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  handleIcon() {
+    Toast({
+      type: 'success',
+      content: '有图标'
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  handleNoIcon() {
+    Toast({
+      content: '没有图标'
+    });
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  handle5Seconds() {
+    Toast({
+      type: 'success',
+      content: '持续5秒再消失',
+      duration: 5
+    });
   }
-})
+});

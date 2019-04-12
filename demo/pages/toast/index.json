@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "Toast 轻提示",
+  "usingComponents": {
+    "d-button": "../../dist/button/index",
+    "d-toast": "../../dist/toast/index"
+  }
 }

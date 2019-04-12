@@ -1,2 +1,25 @@
-<!--pages/toast/index.wxml-->
-<text>pages/toast/index.wxml</text>
+<view>
+  <view class="box">
+    <view class="btn-title">提示类型</view>
+    <view class="btn-box">
+      <d-button class="m-r" line bindtap='handleSuccess' title="成功"></d-button>
+      <d-button class="m-r" line bindtap='handleFail' title="失败"></d-button>
+      <d-button class="m-r" line bindtap='handleLoading' title="加载"></d-button>
+    </view>
+  </view>
+  <view class="box">
+    <view class="btn-title">有无图标</view>
+    <view class="btn-box">
+      <d-button class="m-r" line bindtap='handleIcon' title="有图标"></d-button>
+      <d-button class="m-r" line bindtap='handleNoIcon' title="无图标"></d-button>
+    </view>
+  </view>
+  <view class="box">
+    <view class="btn-title">持续时间</view>
+    <view class="btn-box">
+      <d-button class="m-r" line bindtap='handle5Seconds' title="持续5秒"></d-button>
+    </view>
+  </view>
+</view>
+
+<d-toast id="toast"></d-toast>
