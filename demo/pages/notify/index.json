@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "Notify 消息通知",
+  "usingComponents": {
+    "d-button": "../../dist/button/index",
+    "d-notify": "../../dist/notify/index"
+  }
 }

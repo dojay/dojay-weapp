@@ -1,0 +1,5 @@
+<view
+  class="d-notify {{visible ? 'd-notify-show' : 'd-notify-hide'}} 'd-notify-{{type}}'"
+>
+  <text class="d-notify-txt" wx:if="{{visible}}">{{ content }}</text>
+</view>

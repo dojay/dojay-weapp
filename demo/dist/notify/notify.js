@@ -1,10 +1,9 @@
 const defaultOptions = {
   visible: false,
+  duration: 2.5,
   type: '',
-  icon: '',
   content: '',
-  duration: 2,
-  selector: '#toast'
+  selector: '#notify'
 }
 
 let timer = null;
@@ -18,22 +17,26 @@ function selectComp(selector) {
   return getCurPage().selectComponent(selector);
 }
 
-function Toast(options) {
+function Notify(options) {
+  if (timer) {
+    clearTimeout(timer);
+  }
+  
   options = Object.assign({}, defaultOptions, options, {visible: true});
 
-  const toast = selectComp(options.selector);
+  const notify = selectComp(options.selector);
 
-  toast.setData({
+  notify.setData({
     ...options
   });
-  
+
   timer = setTimeout(() => {
-    hideToast(toast);
+    hideNotify(notify);
   }, options.duration * 1000);
 }
 
-function hideToast(toast) {
-  toast.setData({
+function hideNotify(notify) {
+  notify.setData({
     visible: false
   });
   if (timer) {
@@ -41,4 +44,4 @@ function hideToast(toast) {
   }
 }
 
-export default Toast;
+export default Notify;

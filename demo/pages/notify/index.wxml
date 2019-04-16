@@ -1,2 +1,12 @@
-<!--pages/notify/index.wxml-->
-<text>pages/notify/index.wxml</text>
+<view class="box">
+  <view class="btn-title">提示类型</view>
+  <view class="btn-box">
+    <d-button class="m-r" line bindtap='handleSuccess' title="成功"></d-button>
+    <d-button class="m-r" line bindtap='handleWarning' title="警告"></d-button>
+    <d-button class="m-r" line bindtap='handleFail' title="失败"></d-button>
+    <view class="m-b"/>
+    <!-- <d-button class="m-r" line bindtap='handleLoading' title="加载"></d-button> -->
+  </view>
+</view>
+
+<d-notify id="notify"></d-notify>

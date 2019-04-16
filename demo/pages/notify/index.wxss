@@ -1,1 +1,20 @@
-/* pages/notify/index.wxss */
+.box{
+  background: #fff;
+  padding: 30rpx 0;
+  margin-bottom: 20rpx;
+}
+.btn-title{
+  font-size: 32rpx;
+  color: #333;
+  padding-bottom: 30rpx;
+  padding-left: 30rpx;
+}
+.btn-box{
+  padding: 0 30rpx;
+}
+.m-r{
+  margin-right: 20rpx;
+}
+.m-b{
+  margin-bottom: 30rpx;
+}

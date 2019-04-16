@@ -30,13 +30,11 @@ function Toast(options) {
   timer = setTimeout(() => {
     hideToast(toast);
   }, options.duration * 1000);
-  
-  return toast;
 }
 
 function hideToast(toast) {
   toast.setData({
-    ...defaultOptions
+    visible: false
   });
   if (timer) {
     clearTimeout(timer);

@@ -1,8 +1,8 @@
 {
   "pages":[
     "pages/main/index",
-    "pages/toast/index",
     "pages/notify/index",
+    "pages/toast/index",
     "pages/modal/index",
     "pages/tabs/index",
     "pages/badge/index",
