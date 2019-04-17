@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "Modal 对话框",
+  "usingComponents": {
+    "d-button": "../../dist/button/index",
+    "d-modal": "../../dist/modal/index"
+  }
 }

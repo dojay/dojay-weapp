@@ -1,0 +1,27 @@
+<view
+  class="d-modal-mask {{visible ? 'd-modal-mask-show' : 'd-modal-mask-hide'}}">
+  <view class="d-modal {{visible ? 'd-modal-show' : 'd-modal-hide'}}">
+    <view wx:if="{{title !== ''}}" class="d-modal-head">
+      <text class="d-modal-head-title">{{ title }}</text>
+      <d-icon bindtap="handleCloseModal" name="close" color="#999" size="14"></d-icon>
+    </view>
+
+    <view class="d-modal-content">
+      <slot />
+    </view>
+
+    <view class="d-modal-foot" wx:if="{{btnActions.length > 0}}">
+      <view
+        wx:for="{{ btnActions }}"
+        wx:for-index="index"
+        wx:for-item="item"
+        class="d-modal-foot-txt"
+        wx:key="index"
+        data-index="{{index}}"
+        bindtap="handleClick"
+      >
+        <text style="color: {{item.color}}" >{{ item.name }}</text>
+      </view>
+    </view>
+  </view>
+</view>

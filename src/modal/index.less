@@ -1,0 +1,121 @@
+@import '../styles/_mixins.less';
+
+.d-modal-mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .7);
+  pointer-events: none;
+  transition: all 0.3s ease-in-out 0s;
+
+  &-show{
+    opacity: 1;
+  }
+}
+
+.d-modal{
+  min-width: 500rpx;
+  border-radius: 6px;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+  transform: scale(1);
+
+  &-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20rpx;
+
+    &::after{
+      .hairline();
+      border-bottom-width: 1rpx;
+      left: 0;
+      right: 0;
+    }
+
+    &-title{
+      font-size: 32rpx;
+      font-weight: 400;
+      color: #333;
+    }
+  }
+
+  &-content{
+    padding: 40rpx 20rpx;
+    font-size: 32rpx;
+    color: #333;
+    text-align: center;
+  }
+
+  &-foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
+    padding: 20rpx;
+
+    &::after{
+      .hairline();
+      border-top-width: 1rpx;
+      left: 0;
+      right: 0;
+    }
+
+    &-txt{
+      font-size: 32rpx;
+      border-right: 1rpx solid #ddd;
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      &:last-child{
+        border-right: 0;
+      }
+    }
+  }
+
+  &-show{
+    pointer-events: auto;
+    opacity: 1;
+    animation: modalShow .3s;
+    -webkit-animation: modalShow .3s; /* Safari 与 Chrome */
+  }
+
+  &-hide{
+    opacity: 0;
+    animation: modalHide .3s;
+    -webkit-animation: modalHide .3s; /* Safari 与 Chrome */
+  }
+}
+
+@keyframes modalShow{
+  from { opacity: 0; transform: scale(0.5);}
+  to { opacity: 1; transform: scale(1);}
+}
+ 
+@-webkit-keyframes modalShow /* Safari 与 Chrome */{
+  from { opacity: 0; transform: scale(0.5);}
+  to { opacity: 1; transform: scale(1);}
+}
+
+@keyframes modalHide{
+  from { opacity: 1; transform: scale(1);}
+  to { opacity: 0; transform: scale(0.5);}
+}
+ 
+@-webkit-keyframes modalHide /* Safari 与 Chrome */{
+  from { opacity: 1; transform: scale(1);}
+  to { opacity: 0; transform: scale(0.5);}
+}

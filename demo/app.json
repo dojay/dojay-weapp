@@ -1,9 +1,9 @@
 {
   "pages":[
+    "pages/modal/index",
     "pages/main/index",
     "pages/notify/index",
     "pages/toast/index",
-    "pages/modal/index",
     "pages/tabs/index",
     "pages/badge/index",
     "pages/tabbar/index",

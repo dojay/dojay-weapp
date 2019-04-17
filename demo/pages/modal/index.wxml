@@ -1,2 +1,19 @@
-<!--pages/modal/index.wxml-->
-<text>pages/modal/index.wxml</text>
+<view>
+  <view class="box">
+    <view class="btn-title">对话框类型</view>
+    <view class="btn-box">
+      <d-button class="m-r" line bindtap='handleTwo' title="两个按钮"></d-button>
+      <d-button class="m-r" line bindtap='handleOne' title="一个按钮"></d-button>
+      <d-button class="m-r" line bindtap='handleTitle' title="标题"></d-button>
+    </view>
+  </view>
+  <d-modal btnActions="{{ btnActions1 }}" visible="{{ visible1 }}" bind:click="handleModal1">
+    <view>我是提示</view>
+  </d-modal>
+  <d-modal btnActions="{{ btnActions2 }}" visible="{{ visible2 }}" bind:click="handleModal2">
+    <view>我是提示</view>
+  </d-modal>
+  <d-modal title="标题" visible="{{ visible3 }}">
+    <view>我是提示</view>
+  </d-modal>
+</view>
