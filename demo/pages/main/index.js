@@ -3,6 +3,14 @@ Page({
     currentKey: 'home',
     list: [
       {
+        title: '表单组件',
+        list: [
+          { name: 'Input 输入框', url: '/pages/input/index'},
+          { name: 'Checkbox 复选框', url: '/pages/checkbox/index'},
+          { name: 'Radio 单选框', url: '/pages/radio/index'}
+        ]
+      },
+      {
         title: '布局',
         list: [
           { name: 'Layout 布局', url: '/pages/layout/index' },

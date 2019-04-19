@@ -1,0 +1,5 @@
+<d-cell title="{{ label }}" icon="{{ icon }}">
+  <view class="d-input-box" slot="content">
+    <input slot="content" class="d-input" placeholder="{{ placeholder }}"></input>
+  </view>
+</d-cell>

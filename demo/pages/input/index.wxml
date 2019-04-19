@@ -1,0 +1,15 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通输入框</view>
+  <view class="demo-content">
+    <d-input placeholder="请输入用户名"></d-input>
+  </view>
+  <view class="demo-title">定义内容</view>
+  <view class="demo-content">
+    <d-input
+      label="手机号"
+      icon="phone"
+      placeholder="请输入手机号"
+    ></d-input>
+  </view>
+</view>

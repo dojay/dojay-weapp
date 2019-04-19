@@ -31,6 +31,10 @@ Component({
     url: {
       type: String,
       value: ''
+    },
+    icon: {
+      type: String,
+      vaule: ''
     }
   },
   data: {

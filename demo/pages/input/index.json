@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Input 输入框",
+  "usingComponents": {
+    "d-input": "../../dist/input/index"
+  }
+}

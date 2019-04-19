@@ -22,6 +22,8 @@ Page({
       { name: 'success' },
       { name: 'fail' },
       { name: 'warning' },
+      { name: 'phone' },
+      { name: 'tel' }
     ]
   }
 })

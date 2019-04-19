@@ -14,7 +14,7 @@ Component({
     },
     size: {
       type: String,
-      value: '32'
+      value: '14'
     }
   }
 })

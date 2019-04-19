@@ -10,7 +10,7 @@
       wx:for-item="item"
       class="list-item"
     >
-      <d-panel size="32" title="{{ item.title }}" class="list-panel">
+      <d-panel size="14" title="{{ item.title }}" class="list-panel">
         <d-cell-group>
           <d-cell
             wx:for="{{ item.list }}"

@@ -11,22 +11,26 @@
   class="d-cell {{isLast ? 'd-cell-last' : ''}}"
   bindtap="handleTap"
 >
-  <view class="d-cell-icon">
-    <slot name="icon" />
+  <view class="d-cell-head-box">
+    <d-icon class="d-cell-icon" wx:if="{{icon !== ''}}" name="{{icon}}"></d-icon>
+
+    <view wx:if="{{ title || desc }}" class="d-cell-title">
+      <view
+        wx:if="{{ title }}"
+        class="d-cell-head-title"
+        style="font-size: {{size ? size+'px' : '12px'}}"
+      >{{ title }}</view>
+      <view class="d-cell-head-desc" wx:if="{{ desc }}">{{ desc }}</view>
+    </view>
   </view>
 
-  <view class="d-cell-content">
-    <view
-      v-if="{{ title }}"
-      class="d-cell-content-title"
-      style="font-size: {{size ? size+'rpx' : '28rpx'}}"
-    >{{ title }}</view>
-    <view class="d-cell-content-desc" v-if="{{ desc }}">{{ desc }}</view>
+  <view class="d-cell-content-box">
+    <slot name="content" />
   </view>
 
-  <view class="d-cell-foot" >
+  <view class="d-cell-foot-box" >
+    <slot name="foot" />
     <d-icon wx:if="{{ showLink }}" name="right" color="#ccc" size="16"></d-icon>
-    <slot wx:else name="foot" />
   </view>
 
 </view>
