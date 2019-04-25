@@ -35,6 +35,10 @@ Component({
     icon: {
       type: String,
       vaule: ''
+    },
+    titleWidth: {
+      type: Number,
+      value: 0
     }
   },
   data: {

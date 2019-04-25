@@ -11,7 +11,7 @@
   class="d-cell {{isLast ? 'd-cell-last' : ''}}"
   bindtap="handleTap"
 >
-  <view class="d-cell-head-box">
+  <view class="d-cell-head-box" style="{{titleWidth ? 'max-width:' + titleWidth + 'px;min-width:' + titleWidth + 'px;': ''}}">
     <d-icon class="d-cell-icon" wx:if="{{icon !== ''}}" name="{{icon}}"></d-icon>
 
     <view wx:if="{{ title || desc }}" class="d-cell-title">

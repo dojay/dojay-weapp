@@ -1,5 +1,34 @@
-<d-cell title="{{ label }}" icon="{{ icon }}">
+<d-cell titleWidth="90" title="{{ label }}" icon="{{ icon }}">
   <view class="d-input-box" slot="content">
-    <input slot="content" class="d-input" placeholder="{{ placeholder }}"></input>
+    <input
+      wx:if="{{type !== 'textarea'}}"
+      slot="content"
+      value="{{value}}"
+      bindinput="handleInput"
+      class="d-input"
+      placeholder="{{ placeholder }}"
+      disabled="{{ disabled }}"
+    ></input>
+
+    <textarea
+      wx:else
+      class="d-textarea"
+      slot="content"
+      auto-height
+      value="{{value}}"
+      bindinput="handleInput"
+      placeholder="{{ placeholder }}"
+      disabled="{{ disabled }}"
+    ></textarea>
+
+    <d-icon
+      class="clearable"
+      wx:if="{{clearable && value}}"
+      name="close-circle"
+      color="#999"
+      size="16"
+      bindtap="handleClear"
+    ></d-icon>
+    <slot />
   </view>
 </d-cell>

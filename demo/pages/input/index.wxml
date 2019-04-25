@@ -7,9 +7,46 @@
   <view class="demo-title">定义内容</view>
   <view class="demo-content">
     <d-input
+      value="{{phoneNum}}"
       label="手机号"
       icon="phone"
+      clearable
       placeholder="请输入手机号"
+      bind:change="handleChange"
+    ></d-input>
+  </view>
+  <view class="demo-title">按钮禁用</view>
+  <view class="demo-content">
+    <d-input
+      value="{{phoneNum}}"
+      label="用户名"
+      icon="user"
+      clearable
+      disabled
+      placeholder="输入框禁用"
+      bind:change="handleChange"
+    ></d-input>
+  </view>
+  <view class="demo-title">按钮</view>
+  <view class="demo-content">
+    <d-input
+      value="{{phoneNum}}"
+      label="验证码"
+      clearable
+      placeholder="请输入验证码"
+      bind:change="handleChange"
+    >
+      <d-button size="small" title="发送验证码"></d-button>
+    </d-input>
+  </view>
+  <view class="demo-title">多行输入</view>
+  <view class="demo-content">
+    <d-input
+      value="{{phoneNum}}"
+      label="备注"
+      type="textarea"
+      placeholder="请输入备注"
+      bind:change="handleChange"
     ></d-input>
   </view>
 </view>

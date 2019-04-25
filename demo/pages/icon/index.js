@@ -23,7 +23,8 @@ Page({
       { name: 'fail' },
       { name: 'warning' },
       { name: 'phone' },
-      { name: 'tel' }
+      { name: 'tel' },
+      { name: 'user' }
     ]
   }
 })
