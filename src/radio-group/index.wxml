@@ -1,0 +1,3 @@
+<view class="d-radio-group">
+  <slot />
+</view>

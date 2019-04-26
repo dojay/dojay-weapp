@@ -1,7 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "d-icon": "../icon/index",
-    "d-cell": "../cell/index"
+    "d-icon": "../icon/index"
   }
 }

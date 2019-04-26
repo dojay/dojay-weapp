@@ -1,0 +1,22 @@
+<view
+  class="d-radio"
+  bindtap="handleChange"
+  data-value="{{value}}"
+  data-checked="{{checked}}"
+>
+  <d-icon
+    size="18"
+    wx:if="{{icon === ''}}"
+    name="{{checked ? 'check-fill': 'circle'}}"
+    color="{{checked ? activedColor: color}}"
+  ></d-icon>
+
+  <d-icon
+    size="18"
+    wx:else
+    name="{{ icon }}"
+    color="{{checked ? activedColor: color}}"
+  ></d-icon>
+
+  <view class="d-radio-title">{{ name }}</view>
+</view>

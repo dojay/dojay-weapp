@@ -1,2 +1,39 @@
-<!--pages/radio/index.wxml-->
-<text>pages/radio/index.wxml</text>
+
+<view class="demo-box">
+  <view class="demo-title">普通单选框</view>
+  <view class="demo-content">
+    <d-radio-group bindchange="handleChange">
+      <d-radio
+        wx:for="{{ fruits }}"
+        wx:key="unique"
+        name="{{item.value}}"
+        value="{{item.value}}"
+      ></d-radio>
+    </d-radio-group>
+  </view>
+  <view class="demo-title">自定义单选框</view>
+  <view class="demo-content">
+    <d-radio-group bindchange="handleChange">
+      <d-radio
+        icon="eye"
+        wx:for="{{ custom }}"
+        wx:key="unique"
+        name="{{item.value}}"
+        value="{{item.key}}"
+      ></d-radio>
+    </d-radio-group>
+  </view>
+  <view class="demo-title">自定义颜色</view>
+  <view class="demo-content">
+    <d-radio-group bindchange="handleChange">
+      <d-radio
+        wx:for="{{ color }}"
+        wx:key="unique"
+        name="{{item.value}}"
+        value="{{item.key}}"
+        color="#999"
+        activedColor="#f00"
+      ></d-radio>
+    </d-radio-group>
+  </view>
+</view>
