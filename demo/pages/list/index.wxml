@@ -2,7 +2,6 @@
   <d-panel title="分组" size="32">
     <d-cell-group>
       <d-cell title="我是标题" desc="我是描述" icon="setting">
-        <d-icon name="setting" slot="icon"></d-icon>
         <view slot="foot">我是内容我是内容我是内容我是内容</view>
       </d-cell>
       <d-cell title="我是标题" icon="setting" showLink url="/pages/main/index">

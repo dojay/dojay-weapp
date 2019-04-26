@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "Checkbox 复选框",
+  "usingComponents": {
+    "d-checkbox-group": "../../dist/checkbox-group/index",
+    "d-checkbox": "../../dist/checkbox/index"
+  }
 }

@@ -1,2 +1,39 @@
-<!--pages/checkbox/index.wxml-->
-<text>pages/checkbox/index.wxml</text>
+
+<view class="demo-box">
+  <view class="demo-title">普通选择框</view>
+  <view class="demo-content">
+    <d-checkbox-group bindchange="handleChange">
+      <d-checkbox
+        wx:for="{{ fruits }}"
+        wx:key="unique"
+        name="{{item.value}}"
+        value="{{item.value}}"
+      ></d-checkbox>
+    </d-checkbox-group>
+  </view>
+  <view class="demo-title">自定义图标</view>
+  <view class="demo-content">
+    <d-checkbox-group bindchange="handleChange">
+      <d-checkbox
+        icon="eye"
+        wx:for="{{ custom }}"
+        wx:key="unique"
+        name="{{item.value}}"
+        value="{{item.key}}"
+      ></d-checkbox>
+    </d-checkbox-group>
+  </view>
+  <view class="demo-title">自定义颜色</view>
+  <view class="demo-content">
+    <d-checkbox-group bindchange="handleChange">
+      <d-checkbox
+        wx:for="{{ color }}"
+        wx:key="unique"
+        name="{{item.value}}"
+        value="{{item.key}}"
+        color="#999"
+        activedColor="#f00"
+      ></d-checkbox>
+    </d-checkbox-group>
+  </view>
+</view>

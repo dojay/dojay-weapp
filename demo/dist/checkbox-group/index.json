@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "d-cell-group": "../cell-group/index"
+  }
+}

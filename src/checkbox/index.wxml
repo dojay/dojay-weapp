@@ -1,0 +1,21 @@
+<view
+  class="d-checkbox"
+  bindtap="handleChange"
+  data-value="{{value}}"
+>
+  <d-icon
+    size="18"
+    wx:if="{{icon === ''}}"
+    name="{{checked ? 'check-fill': 'circle'}}"
+    color="{{checked ? activedColor: color}}"
+  ></d-icon>
+
+  <d-icon
+    size="18"
+    wx:else
+    name="{{ icon }}"
+    color="{{checked ? activedColor: color}}"
+  ></d-icon>
+
+  <view class="d-checkbox-title">{{ name }}</view>
+</view>
