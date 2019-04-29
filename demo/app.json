@@ -1,10 +1,10 @@
 {
   "pages":[
+    "pages/search/index",
     "pages/main/index",
     "pages/input/index",
     "pages/checkbox/index",
     "pages/radio/index",
-    
     "pages/modal/index",
     "pages/notify/index",
     "pages/toast/index",

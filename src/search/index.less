@@ -1,0 +1,41 @@
+@import '../styles/_base.less';
+
+.d-search{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100rpx;
+  padding: 0 10px;
+
+  &-input-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 8rpx;
+    flex: 1;
+
+    .d-search-icon{
+      margin: 0 10px;
+    }
+
+    .d-search-input{
+      background: #f5f5f5;
+      height: 64rpx;
+      border-radius: 8rpx;
+      font-size: 28rpx;
+      color: #333;
+      display: flex;
+      flex: 1;
+    }
+  }
+
+  &-foot{
+    margin: 0 0 0 10px;
+    &-txt{
+      font-size: 32rpx;
+      color: @primary-color; 
+    }
+  }
+}

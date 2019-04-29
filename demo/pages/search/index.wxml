@@ -1,0 +1,7 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通搜索框</view>
+  <view class="demo-content">
+    <d-search></d-search>
+  </view>
+</view>

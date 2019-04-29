@@ -1,0 +1,20 @@
+<view class="d-search">
+  
+  <slot name="head" />
+
+  <view class="d-search-input-box">
+    <d-icon class="d-search-icon" size="16" color="#ccc" name="search"></d-icon>
+    <input
+      binginput="handleInput"
+      bindfocus="handleFocus"
+      bindblur="handleBlur"
+      class="d-search-input"
+      placeholder="请输入关键字搜索"
+    ></input>
+  </view>
+
+  <view class="d-search-foot" bindtap="handleConfirm">
+    <text class="d-search-foot-txt">搜索</text>
+  </view>
+
+</view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Search 搜索框",
+  "usingComponents": {
+    "d-search": "../../dist/search/index"
+  }
+}

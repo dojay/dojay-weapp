@@ -5,9 +5,12 @@ Page({
       {
         title: '表单组件',
         list: [
-          { name: 'Input 输入框', url: '/pages/input/index'},
-          { name: 'Checkbox 复选框', url: '/pages/checkbox/index'},
-          { name: 'Radio 单选框', url: '/pages/radio/index'}
+          { name: 'Input 输入框', url: '/pages/input/index' },
+          { name: 'Checkbox 复选框', url: '/pages/checkbox/index' },
+          { name: 'Radio 单选框', url: '/pages/radio/index' },
+          { name: 'Search 搜索框', url: '/pages/search/index' },
+          { name: 'Switch 开关', url: '/pages/switch/index' },
+          { name: 'Rate 评分', url: '/pages/rate/index' }
         ]
       },
       {
