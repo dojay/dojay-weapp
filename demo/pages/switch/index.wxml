@@ -1,0 +1,16 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通switch</view>
+  <view class="demo-content">
+    <d-switch checked></d-switch>
+  </view>
+  <view class="demo-title">不同颜色的switch</view>
+  <view class="demo-content">
+    <d-switch color="#36CFC9" checked></d-switch>
+    <d-switch color="#f5222d" checked></d-switch>
+  </view>
+  <view class="demo-title">禁用switch</view>
+  <view class="demo-content">
+    <d-switch disabled></d-switch>
+  </view>
+</view>

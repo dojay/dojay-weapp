@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/switch/index",
+    "pages/rate/index",
     "pages/search/index",
     "pages/main/index",
     "pages/input/index",

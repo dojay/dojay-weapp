@@ -1,0 +1,6 @@
+<switch
+  class="d-switch"
+  color="{{color}}"
+  checked="{{checked}}"
+  disabled="{{disabled}}"
+></switch>
