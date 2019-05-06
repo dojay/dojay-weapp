@@ -1,2 +1,27 @@
-<!--pages/rate/index.wxml-->
-<text>pages/rate/index.wxml</text>
+
+<view class="demo-box">
+  <view class="demo-title">普通评分</view>
+  <view class="demo-content">
+    <d-rate></d-rate>
+  </view>
+  <view class="demo-title">默认选中的值</view>
+  <view class="demo-content">
+    <d-rate value="3"></d-rate>
+  </view>
+  <view class="demo-title">自定义大小</view>
+  <view class="demo-content">
+    <d-rate size="18"></d-rate>
+  </view>
+  <view class="demo-title">自定义颜色</view>
+  <view class="demo-content">
+    <d-rate color="#f00"></d-rate>
+  </view>
+  <view class="demo-title">自定义图标</view>
+  <view class="demo-content">
+    <d-rate checkedIcon="heart-fill" icon="heart" value="3"></d-rate>
+  </view>
+  <view class="demo-title">禁用</view>
+  <view class="demo-content">
+    <d-rate disabled value="3"></d-rate>
+  </view>
+</view>

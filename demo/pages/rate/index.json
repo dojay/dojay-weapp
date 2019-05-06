@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "Rate 评分",
+  "usingComponents": {
+    "d-rate": "../../dist/rate/index"
+  }
 }

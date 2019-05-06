@@ -1,0 +1,17 @@
+<view class="d-rate"
+  bindtouchmove="handleTouchmove"
+>
+  <view
+    class="d-rate-item"
+    wx:key="unique"
+    wx:for="{{rateList}}"
+    bindtap="handleClick"
+    data-index="{{index}}"
+  >
+    <d-icon
+      size="{{size}}"
+      color="{{color}}"
+      name="{{item ? checkedIcon : icon}}"
+    ></d-icon>
+  </view>
+</view>

@@ -1,12 +1,12 @@
 {
-  "pages":[
-    "pages/switch/index",
+  "pages": [
     "pages/rate/index",
     "pages/search/index",
     "pages/main/index",
     "pages/input/index",
     "pages/checkbox/index",
     "pages/radio/index",
+    "pages/switch/index",
     "pages/modal/index",
     "pages/notify/index",
     "pages/toast/index",
@@ -20,10 +20,11 @@
     "pages/list/index",
     "pages/icon/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Dojay Weapp",
-    "navigationBarTextStyle":"black"
-  }
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
 }
