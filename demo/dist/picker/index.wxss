@@ -1,0 +1,1 @@
+.d-picker-box{display:flex;flex-direction:row;align-items:center;justify-content:space-between;flex:1}.d-picker-content,.d-picker-title{display:inline-block;font-size:28rpx;color:#333}

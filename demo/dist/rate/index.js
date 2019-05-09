@@ -64,9 +64,9 @@ Component({
     selectQuery(selector) {
       return new Promise((resolve) => {
         const query = wx.createSelectorQuery().in(this);
-        query.selectAll(selector).boundingClientRect((react) => {
-          if (resolve.length) {
-            resolve(react)
+        query.selectAll(selector).boundingClientRect((rect) => {
+          if (rect.length) {
+            resolve(rect)
           }
         }).exec();
       })

@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/rate/index",
-    "pages/search/index",
     "pages/main/index",
+    "pages/noticeBar/index",
+    "pages/picker/index",
+    "pages/dateTimePicker/index",
     "pages/input/index",
     "pages/checkbox/index",
     "pages/radio/index",
@@ -11,6 +12,8 @@
     "pages/notify/index",
     "pages/toast/index",
     "pages/tabs/index",
+    "pages/rate/index",
+    "pages/search/index",
     "pages/badge/index",
     "pages/tabbar/index",
     "pages/grid/index",

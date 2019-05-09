@@ -1,0 +1,15 @@
+<view class="d-picker">
+  <picker
+    bindchange="bindPickerChange"
+    value="{{ index }}"
+    range="{{ data }}"
+  >
+    <view class="d-picker-box">
+      <view class="d-picker-title">{{ title }}</view>
+      <view class="d-picker-content">
+        {{ value }}
+        <d-icon name="right" wx:if="{{ rightArrow }}"></d-icon>
+      </view>
+    </view>
+  </picker>
+</view>

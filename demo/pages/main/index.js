@@ -3,6 +3,16 @@ Page({
     currentKey: 'home',
     list: [
       {
+        title: '展示组件',
+        list: [
+          { name: 'NoticeBar 通告栏', url: '/pages/noticeBar/index' },
+          { name: 'Collapse 折叠面板', url: '/pages/collapse/index' },
+          { name: 'Progress 进度条', url: '/pages/progress/index' },
+          { name: 'Steps 步骤条', url: '/pages/steps/index' },
+          { name: 'Tag 标签', url: '/pages/tag/index' }
+        ]
+      },
+      {
         title: '表单组件',
         list: [
           { name: 'Input 输入框', url: '/pages/input/index' },
@@ -10,7 +20,9 @@ Page({
           { name: 'Radio 单选框', url: '/pages/radio/index' },
           { name: 'Search 搜索框', url: '/pages/search/index' },
           { name: 'Switch 开关', url: '/pages/switch/index' },
-          { name: 'Rate 评分', url: '/pages/rate/index' }
+          { name: 'Rate 评分', url: '/pages/rate/index' },
+          { name: 'Picker 选择器', url: '/pages/picker/index' },
+          { name: 'DateTimePicker 日期选择器', url: '/pages/dateTimePicker/index' }
         ]
       },
       {

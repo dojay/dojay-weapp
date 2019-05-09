@@ -1,5 +1,5 @@
 <view class="list-box">
-  <d-panel title="分组" size="32">
+  <d-panel title="分组" size="16">
     <d-cell-group>
       <d-cell title="我是标题" desc="我是描述" icon="setting">
         <view slot="foot">我是内容我是内容我是内容我是内容</view>
