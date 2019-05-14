@@ -1,0 +1,16 @@
+<view class="d-progress">
+  <view
+    class="d-progress-bg"
+    style="background: {{ bgColor }}"
+  >
+    <view
+      class="d-progress-active"
+      style="background: {{ activeColor }};width: {{ progress }}%;"
+    ></view>
+    <view
+      wx:if="{{ showNumber }}"
+      class="d-progress-num"
+      style="background: {{ activeColor }};position: absolute;top:-10rpx;left: calc({{progress}}% - 39rpx);"
+    >{{ progress }}%</view>
+  </view>
+</view>
