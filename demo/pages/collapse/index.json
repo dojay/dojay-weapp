@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Collapse 折叠面板",
+  "usingComponents": {
+    "d-collapse": "../../dist/collapse/index",
+    "d-collapse-group": "../../dist/collapse-group/index"
+  }
+}

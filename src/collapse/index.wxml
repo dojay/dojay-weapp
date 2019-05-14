@@ -1,0 +1,18 @@
+<view class="d-collapse {{isLast ? 'd-collapse-last' : ''}}" data-name="{{ name }}">
+
+  <view class="d-collapse-head" bindtap="onClick">
+    <view class="d-collapse-title">{{ title }}</view>
+    <d-icon class="d-collapse-icon {{open ? 'd-collapse-icon-down' : 'd-collapse-icon-up'}}" color="#999" size="14" name="down"></d-icon>
+  </view>
+
+  <view
+    class="d-collapse-content-wrap"
+    animation="{{ animation }}"
+    style="height: {{ height }}"
+  >
+    <view class="d-collapse-content">
+      <slot />
+    </view>
+  </view>
+
+</view>

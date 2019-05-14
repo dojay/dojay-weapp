@@ -13,3 +13,6 @@
   background: #fff;
   padding: 10px;
 }
+.m-r{
+  margin-right: 20rpx;
+}

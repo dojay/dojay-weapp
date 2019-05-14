@@ -18,7 +18,7 @@ Component({
     // icon 大小
     iconSize: {
       type: Number,
-      value: 60
+      value: 14
     },
     // title
     title: {
@@ -33,7 +33,7 @@ Component({
     // title 大小
     titleSize: {
       type: Number,
-      value: 28
+      value: 16
     },
     border: {
       type: Boolean,

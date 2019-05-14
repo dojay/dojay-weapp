@@ -1,0 +1,25 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通通告栏</view>
+  <view class="demo-content">
+    <d-collapse-group activeNames="{{activeNames}}" bindchange="handleChange">
+      <d-collapse title="我是标题1" name="1">
+        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+      </d-collapse>
+      <d-collapse title="我是标题2" name="2">
+        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+      </d-collapse>
+    </d-collapse-group>
+  </view>
+  <view class="demo-title">手风琴</view>
+  <view class="demo-content">
+    <d-collapse-group accordion activeNames="{{activeNames1}}" bindchange="handleChange1">
+      <d-collapse title="我是标题1" name="3">
+        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+      </d-collapse>
+      <d-collapse title="我是标题2" name="4">
+        我是内容我是内容我是内容我是内容我是内容我是内容我是内容我是内容
+      </d-collapse>
+    </d-collapse-group>
+  </view>
+</view>

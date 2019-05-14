@@ -3,7 +3,6 @@
   "usingComponents": {
     "d-cell": "../../dist/cell/index",
     "d-cell-group": "../../dist/cell-group/index",
-    "d-icon": "../../dist/icon/index",
     "d-panel": "../../dist/panel/index"
   }
 }

@@ -1,0 +1,19 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通tag</view>
+  <view class="demo-content">
+    <d-tag value="标签一"></d-tag>
+  </view>
+  <view class="demo-title">自定义颜色</view>
+  <view class="demo-content">
+    <d-tag bgColor="#FF4D4F" class="m-r" value="标签二"></d-tag>
+    <d-tag bgColor="#73D13D" class="m-r" value="标签二"></d-tag>
+    <d-tag bgColor="#40A9FF" class="m-r" value="标签二"></d-tag>
+    <d-tag bgColor="#ccc" class="m-r" value="标签二"></d-tag>
+    <d-tag bgColor="#fff" txtColor="#666" borderColor="#666" class="m-r" value="标签二"></d-tag>
+  </view>
+  <view class="demo-title">圆角</view>
+  <view class="demo-content">
+    <d-tag round class="m-r" value="标签三"></d-tag>
+  </view>
+</view>

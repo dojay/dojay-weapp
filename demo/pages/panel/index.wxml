@@ -1,5 +1,5 @@
 <view>
-  <d-panel title="标题" size="16">
+  <d-panel title="标题" titleSize="16">
     <view class="content">我是面板内容</view>
   </d-panel>
 </view>

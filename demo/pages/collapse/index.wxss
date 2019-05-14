@@ -11,5 +11,7 @@
 }
 .demo-content{
   background: #fff;
-  padding: 10px;
+}
+.mb{
+  margin-bottom: 10px;
 }

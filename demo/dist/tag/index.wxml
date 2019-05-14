@@ -1,0 +1,11 @@
+<view
+  class="d-tags"
+  style="background: {{bgColor}};border: 1px solid {{borderColor ? borderColor : bgColor}}; border-radius: {{round ? '5em' : '2px'}}"
+>
+  <view
+    class="d-tags-txt"
+    style="color: {{txtColor}}"
+  >
+    {{ value }}
+  </view>
+</view>
