@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/progress/index",
     "pages/collapse/index",
     "pages/tag/index",
-    "pages/progress/index",
     "pages/steps/index",
     "pages/main/index",
     "pages/noticeBar/index",

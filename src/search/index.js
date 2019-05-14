@@ -7,16 +7,16 @@ Component({
   },
   methods: {
     handleInput(e) {
-      console.log(e);
+      this.triggerEvent('input', e);
     },
     handleFocus(e) {
-      console.log(e)
+      this.triggerEvent('focus', e);
     },
     handleBlur(e) {
-      console.log(e);
+      this.triggerEvent('blur', e);
     },
     handleConfirm() {
-      console.log('我点击了搜索');
+      this.triggerEvent('confirm', e);
     }
   }
 });

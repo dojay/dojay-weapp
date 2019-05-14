@@ -1,2 +1,15 @@
-<!--pages/progress/index.wxml-->
-<text>pages/progress/index.wxml</text>
+
+<view class="demo-box">
+  <view class="demo-title">普通进度条</view>
+  <view class="demo-content">
+    <d-progress showNumber progress="10"></d-progress>
+  </view>
+  <view class="demo-title">自定义颜色</view>
+  <view class="demo-content">
+    <d-progress showNumber bgColor="#faad14" activeColor="#f5222d" progress="30"></d-progress>
+  </view>
+  <view class="demo-title">是否显示数字</view>
+  <view class="demo-content">
+    <d-progress progress="50"></d-progress>
+  </view>
+</view>

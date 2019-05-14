@@ -17,7 +17,6 @@ Component({
     updateLastCell() {
       const childs = this.getRelationNodes('../cell/index');
       const cellLen = childs.length;
-      // console.log(cellLen)
 
       if (cellLen === 0) return;
       
