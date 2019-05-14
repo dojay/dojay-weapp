@@ -1,2 +1,11 @@
-<!--pages/steps/index.wxml-->
-<text>pages/steps/index.wxml</text>
+
+<view class="demo-box">
+  <view class="demo-title">普通steps</view>
+  <view class="demo-content">
+    <d-steps steps="{{ steps1 }}"></d-steps>
+  </view>
+  <view class="demo-title">竖向steps</view>
+  <view class="demo-content">
+    <d-steps vertical steps="{{ steps2 }}"></d-steps>
+  </view>
+</view>

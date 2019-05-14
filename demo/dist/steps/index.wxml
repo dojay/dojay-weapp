@@ -1,0 +1,64 @@
+<view class="d-steps">
+  <view
+    wx:for="{{steps}}"
+    wx:if="{{ !vertical }}"
+    wx:key="unique"
+    wx:for-index="index"
+    class="d-steps-item {{ index === (steps.length -1) ? 'd-steps-item-last' : '' }}"
+  >
+    <view
+      class="d-steps-txt {{index === 0 ? 'd-steps-txt-first' : (index === (steps.length -1) ? 'd-steps-txt-last' : '')}}"
+      style="color: {{(index + 1) <= active ? activeColor : ''}}"
+    >
+      <view class="d-steps-title">{{ item.title }}</view>
+      <view class="d-steps-des">{{ item.des }}</view>
+    </view>
+
+    <view class="d-steps-line-box">
+      <view
+        class="d-steps-line"
+        style="background: {{(index + 1) < active ? activeColor : ''}}"
+      ></view>
+      <view
+        class="d-steps-icon {{index === 0 ? 'd-steps-icon-first' : (index === (steps.length -1) ? 'd-steps-icon-last' : '')}}"
+      >
+        <d-icon
+          name="{{ (index + 1) <= active ? activeIcon : icon }}"
+          color="{{(index + 1) <= active ? activeColor : '#eee'}}"
+        ></d-icon>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="d-steps-vertical">
+  <view
+    wx:for="{{steps}}"
+    wx:if="{{ vertical }}"
+    wx:key="unique"
+    wx:for-index="index"
+    class="d-steps-vertical-item"
+  >
+    <view class="d-steps-vertical-line-box">
+      <view
+        class="d-steps-vertical-line {{index === (steps.length -1) ? 'd-steps-vertical-line-last' : ''}}"
+        style="background: {{(index + 1) < active ? activeColor : ''}}"
+      ></view>
+      <view
+        class="d-steps-vertical-icon"
+      >
+        <d-icon
+          name="{{ (index + 1) <= active ? activeIcon : icon }}"
+          color="{{(index + 1) <= active ? activeColor : '#eee'}}"
+        ></d-icon>
+      </view>
+    </view>
+    <view
+      class="d-steps-vertical-txt"
+      style="color: {{(index + 1) <= active ? activeColor : ''}}"
+    >
+      <view class="d-steps-title">{{ item.title }}</view>
+      <view class="d-steps-des">{{ item.des }}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,91 @@
+.d-steps{
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  
+  &-item{
+    position: relative;
+    display: flex;
+    flex: 1;
+
+    &-last{
+      position: absolute;
+      right: 0;
+    }
+
+    .d-steps-txt{
+      color: #999999;
+      font-size: 10px;
+      display: inline-block;
+      padding-bottom: 20px;
+      transform: translate3d(-50%, 0, 0);
+  
+      &-first, &-last{
+        transform: translate3d(0, 0, 0);
+      }
+    }
+  }
+
+  &-line-box{
+    .d-steps-line{
+      position: absolute;
+      bottom: 8px;
+      left: 14%;
+      right: 0;
+      height: 1px;
+      background: #eee;
+      width: 70%;
+    }
+
+    .d-steps-icon{
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      text-align: center;
+      transform: translate3d(-50%,50%,0);
+      &-first{
+        transform: translate3d(0,50%,0);
+      }
+      &-last{
+        right: 0;
+        padding: 0;
+        text-align: right;
+        transform: translate3d(0, 50%, 0);
+      }
+    }
+  }
+}
+
+
+.d-steps-vertical{
+  position: relative;
+  &-item{
+    position: relative;
+    display: flex;
+    flex: 1;
+    padding: 10px 0;
+    .d-steps-vertical-txt{
+      color: #999999;
+      font-size: 10px;
+      display: inline-block;
+      padding-left: 8px;
+    }
+  }
+
+  &-line-box{
+    .d-steps-vertical-line{
+      position:absolute;
+      bottom: 0;
+      top: 26px;
+      bottom:0;
+      width: 1px;
+      background:#eee;
+      height: 100%;
+      left: 5px;
+
+      &-last{
+        display: none;
+      }
+    }
+  }
+}
