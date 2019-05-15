@@ -6,7 +6,7 @@ Component({
     },
     active: {
       type: Number,
-      value: 3
+      value: 0
     },
     activeColor: {
       type: String,

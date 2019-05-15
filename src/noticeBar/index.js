@@ -108,6 +108,10 @@ Component({
       if(this.data.timer) {
         clearTimeout(this.data.timer);
       }
+    },
+    // 点击通知栏
+    handleClick() {
+      this.triggerEvent('click');
     }
   }
 })

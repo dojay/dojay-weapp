@@ -1,0 +1,14 @@
+<view class="d-swipeout" bind:touchmove="handleTouchmove">
+  <view wx:if="{{leftAction.length > 0}}" class="d-swipeout-left">
+    <view>我是左边</view>
+  </view>
+  <view
+    class="d-swipeout-content"
+    style="left: {{ left }}px"
+  >
+    <slot />
+  </view>
+  <view wx:if="{{rightAction.length > 0}}" class="d-swipeout-right">
+    <view>我是右边</view>
+  </view>
+</view>

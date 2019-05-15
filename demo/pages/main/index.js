@@ -18,11 +18,12 @@ Page({
           { name: 'Input 输入框', url: '/pages/input/index' },
           { name: 'Checkbox 复选框', url: '/pages/checkbox/index' },
           { name: 'Radio 单选框', url: '/pages/radio/index' },
-          { name: 'Search 搜索框', url: '/pages/search/index' },
+          // { name: 'Search 搜索框', url: '/pages/search/index' },
           { name: 'Switch 开关', url: '/pages/switch/index' },
           { name: 'Rate 评分', url: '/pages/rate/index' },
-          { name: 'Picker 选择器', url: '/pages/picker/index' },
-          { name: 'DateTimePicker 日期选择器', url: '/pages/dateTimePicker/index' }
+          // { name: 'Picker 选择器', url: '/pages/picker/index' },
+          // { name: 'DateTimePicker 日期选择器', url: '/pages/dateTimePicker/index' },
+          { name: 'Stepper 步进器', url: '/pages/stepper/index' }
         ]
       },
       {
@@ -53,6 +54,7 @@ Page({
           { name: 'Toast 轻提示', url: '/pages/toast/index'},
           { name: 'Modal 对话框', url: '/pages/modal/index'},
           { name: 'Notify 消息通知', url: '/pages/notify/index'}
+          // { name: 'SwiperCell 滑动单元格', url: '/pages/swipercell/index'}
         ]
       }
     ]

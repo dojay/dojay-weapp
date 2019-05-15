@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Swipeout 滑动菜单",
+  "usingComponents": {
+    "d-swipeout": "../../dist/swipeout/index",
+    "d-cell": "../../dist/cell/index"
+  }
+}

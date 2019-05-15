@@ -20,9 +20,25 @@ Component({
       type: Boolean,
       value: false
     },
-    type: {
+    textarea: {
+      type: Boolean,
+      value: true
+    },
+    maxlength: {
+      type: Number,
+      value: 100
+    },
+    placeholderClass: {
       type: String,
       value: ''
+    },
+    adjustPosition: {
+      type: Boolean,
+      value: true
+    },
+    type: {
+      type: String,
+      value: 'text'
     }
   },
   data: {
@@ -39,6 +55,12 @@ Component({
         value: e.detail.value
       });
       this.triggerEvent('change', e.detail.value);
+    },
+    handleFocus() {
+      this.triggerEvent('focus');
+    },
+    handleBlur() {
+      this.triggerEvent('blur');
     }
   }
 });

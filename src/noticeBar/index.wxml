@@ -1,9 +1,27 @@
-<view class="d-notice-bar" style="background: {{bgColor}}">
-  <d-icon class="d-notice-bar-icon" size="12" color="{{ color }}" name="{{leftIcon}}" wx:if="{{ leftIcon !== '' }}"></d-icon>
+<view
+  class="d-notice-bar"
+  style="background: {{bgColor}}"
+  bindtap="handleClick"
+>
+  <d-icon
+    class="d-notice-bar-icon"
+    size="12" color="{{ color }}"
+    name="{{leftIcon}}"
+    wx:if="{{ leftIcon !== '' }}"
+  ></d-icon>
 
   <view class="d-notice-bar-box">
-    <text animation="{{ animationData }}" class="d-notice-bar-txt" style="color: {{color}}">{{ value }}</text>
+    <text
+      animation="{{ animationData }}"
+      class="d-notice-bar-txt"
+      style="color: {{color}}"
+    >{{ value }}</text>
   </view>
 
-  <d-icon class="d-notice-bar-mode" wx:if="{{mode !== ''}}" color="{{ color }}" name="{{ mode === 'link' ? 'right' : 'close' }}"></d-icon>
+  <d-icon
+    class="d-notice-bar-mode"
+    wx:if="{{mode !== ''}}"
+    color="{{ color }}"
+    name="{{ mode === 'link' ? 'right' : 'close' }}"
+  ></d-icon>
 </view>

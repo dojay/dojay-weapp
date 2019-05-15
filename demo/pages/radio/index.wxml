@@ -20,6 +20,7 @@
         wx:key="unique"
         name="{{item.value}}"
         value="{{item.key}}"
+        checked
       ></d-radio>
     </d-radio-group>
   </view>

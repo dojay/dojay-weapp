@@ -1,0 +1,1 @@
+.d-swipeout{display:flex;position:relative}.d-swipeout-left{position:absolute;left:-100px}.d-swipeout-content{position:absolute;left:0;width:100%}.d-swipeout-right{position:absolute;left:100%}

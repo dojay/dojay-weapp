@@ -1,0 +1,11 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通swipercell</view>
+  <view class="demo-content">
+    <d-swipercell leftAction="{{leftAction}}" rightAction="{{rightAction}}">
+      <d-cell title="标题" icon="setting">
+        <view slot="foot">内容</view>
+      </d-cell>
+    </d-swipercell>
+  </view>
+</view>

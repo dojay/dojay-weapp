@@ -1,14 +1,13 @@
 {
   "pages": [
-    "pages/stepper/index",
     "pages/main/index",
+    "pages/stepper/index",
     "pages/steps/index",
     "pages/progress/index",
     "pages/collapse/index",
     "pages/tag/index",
     "pages/noticeBar/index",
     "pages/picker/index",
-    "pages/dateTimePicker/index",
     "pages/input/index",
     "pages/checkbox/index",
     "pages/radio/index",

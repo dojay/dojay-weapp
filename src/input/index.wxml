@@ -4,10 +4,16 @@
       wx:if="{{type !== 'textarea'}}"
       slot="content"
       value="{{value}}"
-      bindinput="handleInput"
       class="d-input"
+      maxlength="{{maxlength}}"
       placeholder="{{ placeholder }}"
+      placeholder-class="{{placeholderClass}}"
+      adjust-position="{{adjustPosition}}"
       disabled="{{ disabled }}"
+      type="{{ type }}"
+      bindinput="handleInput"
+      bindfocus="handleFocus"
+      bindblur="handleBlur"
     ></input>
 
     <textarea
@@ -16,9 +22,14 @@
       slot="content"
       auto-height
       value="{{value}}"
-      bindinput="handleInput"
+      maxlength="{{maxlength}}"
       placeholder="{{ placeholder }}"
+      placeholder-class="{{placeholderClass}}"
+      adjust-position="{{adjustPosition}}"
       disabled="{{ disabled }}"
+      bindinput="handleInput"
+      bindfocus="handleFocus"
+      bindblur="handleBlur"
     ></textarea>
 
     <d-icon

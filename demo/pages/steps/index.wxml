@@ -2,10 +2,22 @@
 <view class="demo-box">
   <view class="demo-title">普通steps</view>
   <view class="demo-content">
-    <d-steps steps="{{ steps1 }}"></d-steps>
+    <d-steps active="1" steps="{{ steps1 }}"></d-steps>
   </view>
   <view class="demo-title">竖向steps</view>
   <view class="demo-content">
-    <d-steps vertical steps="{{ steps2 }}"></d-steps>
+    <d-steps active="2" vertical steps="{{ steps2 }}"></d-steps>
+  </view>
+  <view class="demo-title">自定义图标</view>
+  <view class="demo-content">
+    <d-steps active="3" vertical icon="heart" activeIcon="heart" steps="{{ steps1 }}"></d-steps>
+  </view>
+  <view class="demo-title">自定义激活颜色</view>
+  <view class="demo-content">
+    <d-steps active="4" vertical activeColor="#f00" steps="{{ steps1 }}"></d-steps>
+  </view>
+  <view class="demo-title">自定义激活步骤数</view>
+  <view class="demo-content">
+    <d-steps vertical active="3" steps="{{ steps1 }}"></d-steps>
   </view>
 </view>

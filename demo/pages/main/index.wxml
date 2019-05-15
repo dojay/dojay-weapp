@@ -1,29 +1,39 @@
 <view class="pages">
-  <view class="header">
-    <view class="title">Dojay Weapp</view>
-    <view class="des">隔壁老王的微信小程序UI组件</view>
-  </view>
-  <view class="list-box">
-    <view
-      wx:for="{{ list }}"
-      wx:key="{{ item.title }}"
-      wx:for-item="item"
-      class="list-item"
-    >
-      <d-panel size="14" title="{{ item.title }}" class="list-panel">
-        <d-cell-group>
-          <d-cell
-            wx:for="{{ item.list }}"
-            wx:key="{{ list.item }}"
-            wx:for-item="list"
-            title="{{ list.name }}"
-            showLink
-            url="{{list.url}}"
-          ></d-cell>
-        </d-cell-group>
-      </d-panel>
+  <view wx:if="{{currentKey === 'home'}}">
+    <view class="header">
+      <!-- <image src="../../images/logo.png" class="logo" /> -->
+      <view class="title">Dojay Weapp</view>
+      <view class="des">隔壁老王的微信小程序UI组件</view>
+    </view>
+    <view class="list-box">
+      <view
+        wx:for="{{ list }}"
+        wx:key="{{ item.title }}"
+        wx:for-item="item"
+        class="list-item"
+      >
+        <d-panel size="14" title="{{ item.title }}" class="list-panel">
+          <d-cell-group>
+            <d-cell
+              wx:for="{{ item.list }}"
+              wx:key="{{ list.item }}"
+              wx:for-item="list"
+              title="{{ list.name }}"
+              showLink
+              url="{{list.url}}"
+            ></d-cell>
+          </d-cell-group>
+        </d-panel>
+      </view>
     </view>
   </view>
+
+  <view wx:if="{{currentKey === 'about'}}">
+    <view class="about">隔壁老王微信小程序UI组件是一个个人项目，为了锻炼自己的微信小程序的能力，如有志同道合的朋友，可以一起维护，交流该UI组件。</view>
+    <view class="github">github仓库: dojay-weapp</view>
+    <view class="github">文档: http://weapp.schoolbj.cn/</view>
+  </view>
+  
   <d-tabbar fixed current="{{ currentKey }}" activeColor="#36CFC9" color="#999" bindchange="onChange">
     <d-tabbar-item
       iconName="home"
