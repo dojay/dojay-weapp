@@ -1,0 +1,44 @@
+.d-stepper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &-btn{
+    border: 1px solid #eee;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    box-sizing: border-box;
+  }
+  &-plus{
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-left: 0;
+  }
+  &-minus{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-right: 0;
+  }
+
+  &-disabled{
+    background: #f3f3f3;
+  }
+
+  &-input{
+    width: 35px;
+    height: 30px;
+    border: 1px solid #eee;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    input{
+      height: 30px;
+      min-height: 30px;
+      color: #666;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+<view class="d-stepper">
+  <view class="d-stepper-btn d-stepper-minus {{minusDisabled ? 'd-stepper-disabled' : ''}}" bindtap="handleMinus">
+    <d-icon name="minus" color="{{minusDisabled ? '#ccc' : '#666'}}"></d-icon>
+  </view>
+  <view class="d-stepper-input">
+    <input
+      type="number"
+      bindinput="handleInput"
+      value="{{ value }}"
+    />
+  </view>
+  <view class="d-stepper-btn d-stepper-plus {{plusDisabled ? 'd-stepper-disabled' : ''}}" bindtap="handlePlus">
+    <d-icon name="plus" color="{{plusDisabled ? '#ccc' : '#666'}}"></d-icon>
+  </view>
+</view>

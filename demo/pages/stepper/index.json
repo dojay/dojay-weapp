@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Stepper 步进器",
+  "usingComponents": {
+    "d-stepper": "../../dist/stepper/index"
+  }
+}

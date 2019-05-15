@@ -1,0 +1,7 @@
+
+<view class="demo-box">
+  <view class="demo-title">普通搜索框</view>
+  <view class="demo-content">
+    <d-stepper bind:change="handleChange"></d-stepper>
+  </view>
+</view>
