@@ -64,6 +64,7 @@ Component({
       const { min, max } = this.data;
 
       if (value <= min) {
+        this.setValue(min);
         this.setDisabled('minusDisabled', true);
         return;
       } else {

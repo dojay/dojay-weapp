@@ -1,7 +1,11 @@
 
 <view class="demo-box">
-  <view class="demo-title">普通搜索框</view>
+  <view class="demo-title">普通stepper</view>
   <view class="demo-content">
     <d-stepper bind:change="handleChange"></d-stepper>
+  </view>
+  <view class="demo-title">自定义最大最小值(1,5)</view>
+  <view class="demo-content">
+    <d-stepper max="5" min="1" bind:change="handleChange"></d-stepper>
   </view>
 </view>
