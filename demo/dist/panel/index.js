@@ -12,7 +12,7 @@ Component({
       type: String,
       value: ''
     },
-    size: {
+    titleSize: {
       type: String,
       value: '14'
     }

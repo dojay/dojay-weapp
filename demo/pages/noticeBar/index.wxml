@@ -2,21 +2,21 @@
 <view class="demo-box">
   <view class="demo-title">普通通告栏</view>
   <view class="demo-content">
-    <d-notice-bar value="中国足球啥时候才能出线啊，我日刊里吧，咋的弄里。中国足球啥时候才能出线啊，我日刊里吧，咋的弄里"></d-notice-bar>
+    <d-notice-bar value="通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容"></d-notice-bar>
   </view>
   <view class="demo-title">自定义颜色</view>
   <view class="demo-content">
-    <d-notice-bar bgColor="#f00" color="#fff" value="中国足球啥时候才能出线啊，我日刊里吧，咋的弄里。中国足球啥时候才能出线啊，我日刊里吧，咋的弄里"></d-notice-bar>
+    <d-notice-bar bgColor="#f00" color="#fff" value="通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容"></d-notice-bar>
   </view>
   <view class="demo-title">通告栏类型</view>
   <view class="demo-content mb">
-    <d-notice-bar mode="close" bind:click="handleClick" value="中国足球啥时候才能出线啊，我日刊里吧，咋的弄里。中国足球啥时候才能出线啊，我日刊里吧，咋的弄里"></d-notice-bar>
+    <d-notice-bar mode="close" bind:click="handleClick" value="通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容"></d-notice-bar>
   </view>
   <view class="demo-content">
-    <d-notice-bar mode="link" bind:click="handleClick" value="中国足球啥时候才能出线啊，我日刊里吧，咋的弄里。中国足球啥时候才能出线啊，我日刊里吧，咋的弄里"></d-notice-bar>
+    <d-notice-bar mode="link" bind:click="handleClick" value="通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容"></d-notice-bar>
   </view>
   <view class="demo-title">自定义时间</view>
   <view class="demo-content">
-    <d-notice-bar duration="5" value="中国足球啥时候才能出线啊，我日刊里吧，咋的弄里。中国足球啥时候才能出线啊，我日刊里吧，咋的弄里"></d-notice-bar>
+    <d-notice-bar duration="5" value="通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容通告栏内容"></d-notice-bar>
   </view>
 </view>

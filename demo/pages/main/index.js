@@ -5,7 +5,7 @@ Page({
       {
         title: '布局',
         list: [
-          { name: 'Layout 布局', url: '/pages/layout/index' },
+          // { name: 'Layout 布局', url: '/pages/layout/index' },
           { name: 'Grid 宫格', url: '/pages/grid/index' },
           { name: 'List 列表', url: '/pages/list/index' },
           { name: 'Panel 面板', url: '/pages/panel/index' },
