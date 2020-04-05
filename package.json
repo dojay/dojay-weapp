@@ -1,6 +1,6 @@
 {
   "name": "dojay-weapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "隔壁老王的微信小程序UI组件",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "keywords": [
     "wechat"
   ],
-  "author": "wdojay@gmail.com",
+  "author": "wdojay@163.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dojay/dojay-weapp/issues"

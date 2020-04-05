@@ -39,6 +39,10 @@ Component({
     type: {
       type: String,
       value: 'text'
+    },
+    value: {
+      type: String,
+      value: ''
     }
   },
   data: {
